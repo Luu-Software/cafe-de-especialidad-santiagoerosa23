@@ -6,9 +6,8 @@ let personasTexto: string = preguntar('Dividir la cuenta entre: ');
 
 let totalPorPersona: number = Number(totalTexto) / Number(personasTexto); // COMPLETAR
 if (esEstudiante==="si"){
-   totalPorPersona*0.90
+   totalPorPersona = totalPorPersona*0.90
 }
-if (esEstudiante==="no")
 
 
 console.log(`Total por persona: $${totalPorPersona}`);
